@@ -1,0 +1,16 @@
+.movielist {
+    padding: 0 3rem 3rem 3rem;
+    
+}
+.movielist{
+    background-color: black;
+}
+
+
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+}

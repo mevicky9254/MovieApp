@@ -1,0 +1,44 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cards:hover {
+    transform: translateY(-2px);
+  }
+  
+  .card_img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card_details {
+    margin-top: 16px;
+  }
+  
+  .card_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .card_rating {
+    color: black;
+  }
+  
+  .card_rating i {
+    margin-left: 4px;
+    color: #aa0707;
+  }
+  
+  
+  
