@@ -1,0 +1,174 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* ... (existing CSS rules) */
+
+
+  .left-menu .menubars{
+    color: #fff;
+    font-size: 25px;
+    display: none;
+  }
+  
+  /* Left Menu */
+  .left-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-menu li {
+    margin-right: 20px;
+  }
+  
+  .left-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .left-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
+
+  
+  /* Right Menu */
+.right-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Box */
+  .searchbox-container {
+    position: relative;
+  }
+  
+  .searchbox {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #fff3f3; /* Bottom line only */
+    outline: none; /* Remove the default focus outline */
+    width: 200px; /* Adjust the width as needed */
+    background-color: transparent; /* Transparent background */
+    color: #fff;
+    margin-right: 8px;
+  }
+  
+  /* Magnifying Glass Icon */
+  .magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  /* Logo */
+
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    padding-left: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Attractive Animation on Hover */
+  .logo:hover {
+    
+    transition: transform 0.2s ease-in-out;
+    background-color: none;
+  }
+  
+  .logo h1 {
+    animation: colorChange 1s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    from {
+      color: #fff;
+    }
+    to {
+      color: #f50057; /* Use the color of your choice */
+    }
+  }
+  
+
+
+  /* Media Queries for Responsive Design */
+
+/* For screen sizes up to 768px (Mobile) */
+@media (max-width: 768px) {
+    .left-menu .menubars {
+      display: block;
+    }
+  
+    .left-menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left-menu li {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+  
+    .logo h1 {
+      font-size: 20px;
+    }
+  
+    .right-menu {
+      margin-top: 8px;
+    }
+  
+    .searchbox {
+      width: 100%;
+    }
+  }
+  
+  /* For screen sizes from 769px to 1024px (Tablet) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .left-menu li {
+      font-size: 18px;
+    }
+  }
+  
+  /* For screen sizes from 1025px to 1280px */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .left-menu li {
+      font-size: 22px;
+    }
+  }
+  
+  /* For screen sizes above 1280px (Desktop) */
+  @media (min-width: 1281px) {
+    .left-menu li {
+      font-size: 24px;
+    }
+  }
