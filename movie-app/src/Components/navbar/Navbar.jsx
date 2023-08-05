@@ -16,7 +16,7 @@ const handleSearchClick=()=>{
     alert("Length of the movie name must be greater than two");
   }else{
    onSearch(searchValue);
-   setSearchValue("");
+  setSearchValue("");
   }
 };
 
