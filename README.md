@@ -13,9 +13,6 @@ FilmBuzz: Your one-stop hub for discovering the latest blockbusters, trending fi
   
    <h1>Modal</h1>
    <img src="https://i.postimg.cc/zvYFSrjp/Screenshot-89.png" alt="">
-    
-    <h1>Search List Page</h1>
-    <img src="https://i.postimg.cc/N0DXgKRT/Screenshot-2023-02-27-at-10-26-52-PM.png" alt="">
 
      <h1>Search Bar</h1>
    <img src="https://i.postimg.cc/FHXXdd3J/Screenshot-87.png" alt="">
