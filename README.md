@@ -3,13 +3,13 @@ FilmBuzz: One-stop hub for discovering the latest blockbusters, trending films, 
 <h3>Live Demo Link https://glowing-bavarois-8587cc.netlify.app/ </h3>
 
  <h1>Home Page</h1>
-  <img src="https://i.postimg.cc/GhsXyXxX/Screenshot-84.png" alt="">
+  <img src="https://i.postimg.cc/vTQjGfVW/Screenshot-92.png" alt="">
     
   <h1>Trending Hits</h1>
   <img src="https://i.postimg.cc/5003Ngtq/Screenshot-85.png" alt="">
     
   <h1>Favourite List</h1>
-  <img src="https://i.postimg.cc/wMDFSvvS/Screenshot-86.png" alt="">
+  <img src="https://i.postimg.cc/W37WYzHt/Screenshot-93.png" alt="">
   
    <h1>Modal</h1>
    <img src="https://i.postimg.cc/zvYFSrjp/Screenshot-89.png" alt="">
