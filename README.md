@@ -27,15 +27,20 @@ FilmBuzz: One-stop hub for discovering the latest blockbusters, trending films, 
 ### Execution
 To run the project on your local machine, follow these steps:
 1. Open the project in VS Code.
-2. Clone the repository:[https://github.com/mevicky9254/MovieApp.git](https://github.com/mevicky9254/MovieApp.git).
-3. Run the command `npm start`.
-4. Congratulations! You have successfully started the application.
+2. Open terminal or command prompt.
+3. Clone the repository:[https://github.com/mevicky9254/MovieApp.git](https://github.com/mevicky9254/MovieApp.git).
+4. `git clone https://github.com/mevicky9254/MovieApp.git`
+5. Install dependencies `npm install`
+6. Start the development server `npm start`.
+7. Congratulations! Your application will sucessfully start on `http://localhost:3000`.
 
 ## Built with
 - React.js
 - HTML
 - CSS
 - JavaScript
+- npm
+- git
 
 ## Creators
 - [Vikki Kumar](https://github.com/mevicky9254)
