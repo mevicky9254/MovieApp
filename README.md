@@ -1,2 +1,2 @@
-# MovieApp
+# FilmBuzz
 Movie App
