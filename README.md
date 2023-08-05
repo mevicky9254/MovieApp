@@ -40,9 +40,7 @@ To run the project on your local machine, follow these steps:
 ## Creators
 - [Vikki Kumar](https://github.com/mevicky9254)
       
-        
-        
-        
+             
 
 
 
