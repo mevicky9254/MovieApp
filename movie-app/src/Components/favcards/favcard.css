@@ -40,5 +40,18 @@
     color: #aa0707;
   }
   
+  button {
+    background-color: #0b5583;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
   
+  button:hover {
+    background-color: #1a2091ee; 
+  }
   

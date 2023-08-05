@@ -40,19 +40,13 @@ const Home=()=>{
                                     <div className="description">{movie ? movie.overview : ""}</div>
                                 </div>
                             </Link>
-                        ))
-
-                      
+                        )) 
                     }
                 </Carousel>
-
-             
                 <Movielist/>
                 
             </div>
-            
-        </>
-    
+        </> 
 )
 
 }
