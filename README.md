@@ -1,5 +1,5 @@
 # FilmBuzz
-FilmBuzz: Your one-stop hub for discovering the latest blockbusters, trending films, and upcoming movies. User can create their own favorite list, engage with a passionate movie community, and stay updated with the latest news from the film industry.
+FilmBuzz: One-stop hub for discovering the latest blockbusters, trending films, and upcoming movies. User can create their own favorite list, engage with a passionate movie community, and stay updated with the latest news from the film industry.
 <h3>Live Demo Link https://glowing-bavarois-8587cc.netlify.app/ </h3>
 
  <h1>Home Page</h1>
