@@ -12,7 +12,12 @@ const handleInputChange=(event)=>{
 
 
 const handleSearchClick=()=>{
-  onSearch(searchValue);
+  if(searchValue.length<3){
+    alert("Length of the movie name must be greater than two");
+  }else{
+   onSearch(searchValue);
+   setSearchValue("");
+  }
 };
 
 const handleKeyPress=(event)=>{

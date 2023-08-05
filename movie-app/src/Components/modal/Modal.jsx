@@ -31,7 +31,7 @@ const Modal = () => {
     const updatedList = [...existing, movie];
     setFavlist(updatedList);
     localStorage.setItem("Favmovie", JSON.stringify(updatedList));
-    alert("Item added to Favorites");
+    alert("Movie added to Favorites successfully!");
     navigate("/favourite");
   };
 
@@ -62,7 +62,6 @@ const Modal = () => {
           <p>{movie ? movie.overview : ""}</p>
         </div>
         <div className="modal-buttons">
-          <button className="watch-now">Watch Now</button>
           <button className="add-to-favorites" onClick={()=>addToFavorite(movie)}>Add to Favorites</button>
         </div>
        </div>
