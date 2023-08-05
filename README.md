@@ -27,7 +27,7 @@ FilmBuzz: One-stop hub for discovering the latest blockbusters, trending films, 
 ### Execution
 To run the project on your local machine, follow these steps:
 1. Open the project in VS Code.
-2. Clone the repository: [https://github.com/Abhinav-Mourya/puzzled-apparatus-1796](https://github.com/Abhinav-Mourya/puzzled-apparatus-1796).
+2. Clone the repository: [https://github.com/mevicky9254/MovieApp.git](https://github.com/mevicky9254/MovieApp.git).
 3. Run the command `npm start`.
 4. Congratulations! You have successfully started the application.
 
