@@ -39,6 +39,25 @@
     margin-left: 4px;
     color: #aa0707;
   }
+
+
+  /* media query for smaller devices */
+  @media (max-width: 420.98px) {
+
+    .cards {
+      margin: auto;
+      margin-top: 20px;
+      width: 60%;
+     
+    }
+    
+    .card_img {
+      width: 100%;
+      max-height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   
-  
-  
+    }

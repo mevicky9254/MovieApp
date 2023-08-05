@@ -1,15 +1,48 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({onSearch}) => {
+
+const [searchValue, setSearchValue] = useState("");
+
+const handleInputChange=(event)=>{
+  setSearchValue(event.target.value);
+};
+
+
+const handleSearchClick=()=>{
+  onSearch(searchValue);
+};
+
+const handleKeyPress=(event)=>{
+if(event.key==="Enter"){
+  handleSearchClick();
+}
+}
+
   return (
     <>
       
     <div className="navbar">
       <ul className="left-menu">
-        <li className="menubars">
-          <i className="fa-solid fa-bars" />
-        </li>
+      <li className="menubars">
+      <i className="fa-solid fa-bars" />
+      {/* Floating menu */}
+      <div className="floating-menu">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/movies/top_rated">Trending</Link>
+          </li>
+          <li>
+            <Link to="/favourite">Favourite</Link>
+          </li>
+        </ul>
+      </div>
+    </li>
         <li className="logo">
           <Link to="/">
             <h1>FilmBuzz</h1>
@@ -31,9 +64,12 @@ const Navbar = () => {
             type="text"
             className="searchbox"
             placeholder="Search"
+            value={searchValue}
+            onChange={handleInputChange}
+            onKeyDown={handleKeyPress}
           />
-          <Link to="/movies/search" className="magnifying-glass">
-            <i className="fa-solid fa-magnifying-glass" />
+          <Link to="/search/movie" className="magnifying-glass">
+            <i className="fa-solid fa-magnifying-glass"  onClick={handleSearchClick}/>
           </Link>
         </div>
       </div>
